@@ -94,3 +94,33 @@
 [submodule "bzip2"]
 	path = bzip2
 	url = https://sourceware.org/git/bzip2.git
+[submodule "nvidia-libs/nvcuda"]
+	path = nvidia-libs/nvcuda
+	url = https://github.com/SveSop/nvcuda.git
+[submodule "nvidia-libs/nvcuda32"]
+	path = nvidia-libs/nvcuda32
+	url = https://github.com/SveSop/nvcuda.git
+[submodule "nvidia-libs/nvenc"]
+	path = nvidia-libs/nvenc
+	url = https://github.com/SveSop/nvenc.git
+[submodule "nvidia-libs/nvenc32"]
+	path = nvidia-libs/nvenc32
+	url = https://github.com/SveSop/nvenc.git
+[submodule "nvidia-libs/wine-nvml"]
+	path = nvidia-libs/wine-nvml
+	url = https://github.com/Saancreed/wine-nvml.git
+[submodule "nvidia-libs/wine-nvoptix"]
+	path = nvidia-libs/wine-nvoptix
+	url = https://github.com/SveSop/wine-nvoptix.git
+[submodule "vklayers/vkBasalt"]
+	path = vklayers/vkBasalt
+	url = https://github.com/DadSchoorse/vkBasalt.git
+[submodule "vklayers/pyroveil"]
+	path = vklayers/pyroveil
+	url = https://github.com/HansKristian-Work/pyroveil.git
+[submodule "vklayers/low_latency_layer"]
+	path = vklayers/low_latency_layer
+	url = https://github.com/Korthos-Software/low_latency_layer.git
+[submodule "vklayers/Vulkan-Utility-Libraries"]
+	path = vklayers/Vulkan-Utility-Libraries
+	url = https://github.com/KhronosGroup/Vulkan-Utility-Libraries.git
