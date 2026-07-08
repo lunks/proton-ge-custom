@@ -201,7 +201,7 @@ diff --git a/dlls/winepulse.drv/pulse.c b/dlls/winepulse.drv/pulse.c
      memcpy(dev->pulse_name, pulse_name, len + 1);
  
      list_add_tail(list, &dev->entry);
-@@ -1398,10 +1470,12 @@
+@@ -1398,9 +1470,11 @@
      return S_OK;
  }
  
@@ -209,8 +209,7 @@ diff --git a/dlls/winepulse.drv/pulse.c b/dlls/winepulse.drv/pulse.c
 +static HRESULT pulse_stream_connect(struct pulse_stream *stream, const char *pulse_name, const char *target_object,
 +        UINT32 period_bytes)
  {
-     pa_stream_flags_t flags = PA_STREAM_START_CORKED | PA_STREAM_START_UNMUTED | PA_STREAM_ADJUST_LATENCY
-                               | PA_STREAM_AUTO_TIMING_UPDATE | PA_STREAM_INTERPOLATE_TIMING;
+     pa_stream_flags_t flags = PA_STREAM_START_CORKED | PA_STREAM_START_UNMUTED | PA_STREAM_ADJUST_LATENCY;
 +    pa_proplist *proplist = NULL;
      int ret;
      char buffer[64];
