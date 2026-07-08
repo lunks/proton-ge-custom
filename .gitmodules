@@ -124,3 +124,6 @@
 [submodule "vklayers/Vulkan-Utility-Libraries"]
 	path = vklayers/Vulkan-Utility-Libraries
 	url = https://github.com/KhronosGroup/Vulkan-Utility-Libraries.git
+[submodule "nvidia-libs/dxvk-nvapi"]
+	path = nvidia-libs/dxvk-nvapi
+	url = https://github.com/jp7677/dxvk-nvapi
